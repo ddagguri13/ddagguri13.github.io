@@ -4,13 +4,15 @@ import json
 import os
 
 # ================= 설정 =================
-TOKEN = "MTQ5NTE5NTA0MDMwNDMzNzAwNg.Go8UFn.Wa1_hJiq6weQv9HZKtiYYFP4lVmcVweewm7res"
-API_KEY = "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"
+import os
+
+TOKEN = os.getenv("TOKEN")
+API_KEY = os.getenv("API_KEY")
 OWNER_ID = 1328903687330070653  # 👈 너 ID
 
 FILTER_FILE = "filter_words.json"
 
-intents = discord.Intents.default()
+intents = discord.Intents.기본()
 intents.message_content = True
 
 client = discord.Client(intents=intents)
