@@ -4,8 +4,8 @@ import json
 import os
 
 # ================= 설정 =================
-TOKEN = "MTQ5NTE5NTA0MDMwNDMzNzAwNg.Gb_9pr.ykROtOgXtXm25ugIFbvBvZbm2Lt0_TK_D4Sxh8"
-API_KEY = "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"
+API_KEY = "TOKEN = os.getenv("MTQ5NTE5NTA0MDMwNDMzNzAwNg.Gb_9pr.ykROtOgXtXm25ugIFbvBvZbm2Lt0_TK_D4Sxh8")
+API_KEY = os.getenv("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")
 OWNER_ID = 1328903687330070653  # 👈 너 ID
 
 FILTER_FILE = "filter_words.json"
